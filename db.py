@@ -47,7 +47,7 @@ def update():
     messagebox.showinfo('Success',The emploee data is update)
     Clear()
     displayAll()
-
+    
 
 tv.heading("6", text="Gender")
 tv.column("6", width="90")
@@ -59,7 +59,6 @@ tv['show'] = 'headings'
 tv.bind("<ButtonRelease-1>", getData)
 tv.place(x=1 ,y=1,height=610,width=875)
 
-
-    displayAll()
-    root.mainloop()
+displayAll()
+root.mainloop()
                              
