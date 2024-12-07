@@ -10,7 +10,7 @@ root.resizable(False,False)
 root.configure(bg = '#2c3e50')
 logo = PhotoImage(file='logo.png')
 lbl_logo= Label (root, image=logo, bg='#2c3e50')
-lbl_logo.place( x=70, y=500)
+lbl_logo.place( x=80, y=520)
 
 #===== Entries Frame ====#
 entries_frame =Frame(root, bg='#2c3e50')
